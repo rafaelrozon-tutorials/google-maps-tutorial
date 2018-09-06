@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Google Maps Tutorial</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+    <h1>Google Maps Tutorial</h1>
+    <div>
+        <div id="map"></div>
+    </div>
+
+    <script src="/app.js"></script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=<%= htmlWebpackPlugin.options.GOOGLE_MAPS_KEY %>&callback=app">
+    </script>
+</body>
+</html>
